@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rN6Jjk" name="OwnedArrayOfButtons" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.OwnedArrayOfButtons" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.4">
+  <MAINGROUP id="DEyplL" name="OwnedArrayOfButtons">
+    <GROUP id="{B1FB53A1-48BC-2240-60AF-6EDAE9FB2C36}" name="Source">
+      <FILE id="YZ0knO" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="bAougY" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ekgUyS" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="OwnedArrayOfButtons"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="OwnedArrayOfButtons"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../SDKs/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../SDKs/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
